@@ -1,7 +1,7 @@
 const { MONGO_USER, MONGO_PASSWORD, MONGO_DB } = require('../env')
 const express = require('express')
 const mongoose = require('mongoose')
-const cors = require('cors')
+const cors = require('cors') // ? Para poder rodar a aplicação de outros endereços, pois o express bloqueia acessos de outras portas que não a :3333
 const http = require('http')
 
 const routes = require('./routes')
