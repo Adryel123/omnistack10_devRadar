@@ -1,0 +1,5 @@
+module.exports = {
+    MONGO_USER: "adryel",
+    MONGO_PASSWORD: "adryel",
+    MONGO_DB: "week10"
+}

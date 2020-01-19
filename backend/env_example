@@ -1,0 +1,8 @@
+// renomear esse arquivo como env
+// incluindo seu user, senha e banco de dados do mongo db
+
+module.exports = {
+    MONGO_USER = "usuáro_mongo",
+    MONGO_PASSWORD = "senha_mongo",
+    MONGO_DB = "banco_de_dados_mongo"
+}
